@@ -1,0 +1,8 @@
+# requirements.txt – put this file at the root of your repo
+
+# Core framework
+streamlit>=1.28          # latest stable, includes st.cache_data and use_container_width()
+
+# Data handling & plotting
+pandas>=2.0              # required by streamlit for dataframe support
+plotly>=5.18             # contains plotly.express used in the app
